@@ -1,0 +1,341 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 196, 0);
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 2;
+}
+.menu h6 {
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    padding-right: 2rem;
+    list-style: none;
+}
+.menu ul li a{
+    padding-right: 1rem;
+    text-decoration: none;
+}
+.imagemprincipal {
+
+    background: url(./imagens/hefesto.png );
+    background-size: cover;
+    filter: brightness(50%);
+    width: 100%;
+    height: 100vh;
+}
+.centro{
+    display :flex ;
+    flex-flow:column wrap ;
+    justify-content:center;
+    text-align: center;
+}
+
+.centro h1{
+    color: gold;
+    font-size: 6rem;
+    margin-right: 25rem;
+    
+}
+.centro h2{
+    color: white;
+    font-size:2.5rem ;
+    margin-right: 24rem;
+    margin-top: -5rem;
+}
+
+#hefesto{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.divs{
+    width: 100%;
+    height: 100vh;
+}
+.perfil_hefesto{
+    background-color:antiquewhite;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.titulos{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3rem;
+    color: coral;
+}
+p {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+.hefestorole{
+    margin: 0 auto;
+    width: 23rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.sobre_mim h3{
+        margin: 0 auto;
+        text-align: left;
+        font-size: 1.6rem;
+        margin-top: 5rem;
+    
+}
+.Perfil{
+    margin: 0 auto;
+    width: 100%;
+    /* height: 500px; */
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sobre_mim p{
+    text-align:left;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+.sobre_mim {
+    margin: 0 auto;
+    width: 300px;
+    height: 500px;
+    line-height: 2rem;
+    order: 1;
+    
+}
+.Detalhes h3{
+    font-size: 1.6rem;
+
+}
+.Detalhes{
+    width: 400PX;
+    height: 500px;
+    line-height: 2rem;
+    order: 0;
+    text-align: center;
+}
+.ola{
+    width: 300PX;
+    height: 500px;
+    line-height: 2rem;
+    order: 2;
+    text-align: center;
+    
+}
+.ola h3{
+    text-align: left;
+    font-size: 1.7rem;
+    margin-top: 5rem;
+    text-align: center;
+    color: white;
+}
+.Detalhes p{
+    font-size: 1.2rem;
+    margin-top: 0.3rem;
+}
+.Detalhes h4{
+    font-size: 1.3rem;
+}
+.ola-2{
+    width: 17rem;
+    height: 25.5rem;
+    background-color:coral;
+    margin-top: 5rem
+}
+.ola p {
+    color: white;
+    font-size: 0.7rem;
+}
+.ajustar-ola{
+    width: 15rem;
+    height: 12rem;
+    margin-left: 1rem;
+
+}
+.ola img{
+    position: absolute;
+    width: 12rem;
+    height: 10rem;
+    right: 4rem;
+    z-index: 1;
+    border-radius: 50%;
+    z-index: 1;
+}
+.ajuste-detalhes{
+    text-align: left;
+    width: 14rem;
+    height: 18rem;
+    margin-left: 10rem;
+    line-height: 1rem;
+    margin-top: 5.5rem;
+
+}
+.ajuste-detalhes p{
+    text-align: left;
+}
+    
+.top6 p{
+    color: orangered;
+    font-family: 'Bungee Shade', cursive;
+    margin-top: 5rem;
+    font-size: 1.8rem;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    animation:
+         typing 7s,
+         curor .4s step-end infinite alternate;
+         animation-iteration-count: infinite;
+         animation-duration: 6s;
+}
+.top6{
+    margin: 0 auto;
+    position: relative;
+    background-color:burlywood
+}
+
+.top6 h2{
+    margin-top: 4rem;
+}
+
+/* cursor blinking */
+@keyframes cursor{
+    50% {   border-color: transparent}
+}
+/* typing effrct */
+@keyframes typing {
+    from {width: 0}
+}
+.top6 video{
+    margin-left: 11cm;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 16rem;
+    width: 30rem;
+    height: 30rem;
+    animation: videoAnimation 5s infinite;
+}
+.Jacksmith {
+    background-color:dimgrey
+}
+.Jacksmith p{
+    color: rgb(255, 255, 255);
+    font-family: 'Bungee Shade', cursive;
+    font-size: 1.65rem;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    animation:
+         typing 7s,
+         curor .4s step-end infinite alternate;
+         animation-iteration-count: infinite;
+         animation-duration: 6s;
+}
+.Jacksmith video{
+    margin-top: 6rem;
+    width: 30rem;
+    height: 30rem;
+    margin-left: 11cm;
+}
+.GodOfWar{
+    background-color: rgb(146, 70, 19);
+}
+.GodOfWar p{
+    color: white;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 1.9rem;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    animation:
+         typing 7s,
+         curor .4s step-end infinite alternate;
+         animation-iteration-count: infinite;
+         animation-duration: 6s;
+}
+.GodOfWar video {
+    margin-top: 6rem;
+    width: 30rem;
+    height: 30rem;
+    margin-left: 11cm
+}
+.perfiljp{
+    background-color:white;
+    
+
+}
+.perfiljp h2{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3rem;
+    color:black;
+}
+.imagemmeuperf{
+    width: 30rem;
+    height: 93vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+}
+.jhonatan {
+    margin: 0 auto;
+    width: 50rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudomeuperfil{
+    margin: 0 auto;
+    display: flex;
+    flex-direction:row wrap;
+    justify-content: space-between;
+}
+.imagemmeuperf img {
+    width: 22rem;
+    height: 22rem;
+    border-radius: 50%;
+}
+.indicaçoes h2{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3rem;
+    color:black;
+}
+.lista{
+    margin: 0 auto;
+    width: 65rem;
+    height: 30rem;
+}
+.lista li{
+    margin-top: 6rem;
+    font-size: 1.2rem;
+    line-height: 0.8rem;
+}
